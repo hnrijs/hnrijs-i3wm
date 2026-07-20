@@ -34,9 +34,9 @@ bindsym $mod+Shift+L exec --no-startup-id ~/.config/i3/scripts/i3exit.sh lock, m
 
 bindsym $mod+Shift+H exec --no-startup-id ~/.config/i3/scripts/i3exit.sh hibernate, mode "default"
 
-bindsym $mod+Shift+Y --no-startup-id ~/.config/i3/scripts/i3exit.sh reboot, mode "default"
+bindsym $mod+Shift+I --no-startup-id ~/.config/i3/scripts/i3exit.sh reboot, mode "default"
 
-bindsym $mod+Shift+U --no-startup-id ~/.config/i3/scripts/i3exit.sh shutdown, mode "default"
+bindsym $mod+Shift+O --no-startup-id ~/.config/i3/scripts/i3exit.sh shutdown, mode "default"
 
 
 
@@ -50,13 +50,14 @@ bindsym $mod+o exec obs-studio
 bindsym $mod+c exec code
 bindsym $mod+k exec krita
 bindsym $mod+p exec protonvpn-app
-bindsym $mod+Shift+C exec qalculate-gtk
+bindsym $mod+Shift+k exec qalculate-gtk
 
 
-# power plans
+# power plans update clean
 
 bindsym $mod+Shift+p exec --no-startup-id ~/.config/i3/scripts/power_profile.sh
-
+bindsym $mod+Shift+u exec alacritty -e ~/.config/i3/scripts/system_update.sh
+bindsym $mod+Shift+c exec alacritty -e ~/.config/i3/scripts/system_clean.sh
 
 # kill focused window
 
