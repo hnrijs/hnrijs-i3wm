@@ -1,5 +1,7 @@
 # hnrijs i3wm
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dc12bf2f-fcf2-4e3a-86ef-038bfe9bf3ea" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a39e795d-6577-468f-b950-6bb904709b88" />
+
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/89fea92a-9646-4df6-be0b-d3f750d7b783" />
 
 
