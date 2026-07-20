@@ -1,5 +1,5 @@
 # i3status configuration file.
-
+order += "battery all"
 order += "disk /"
 order += "memory"
 order += "volume master"
