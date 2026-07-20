@@ -24,7 +24,7 @@ sudo reboot
 
 
 
-## Keybindings
+# Keybindings
 
 Here are the essential shortcuts for managing this desktop environment (`$mod` refers to the **Super / Windows** key):
 
@@ -36,14 +36,30 @@ Here are the essential shortcuts for managing this desktop environment (`$mod` r
 | `$mod + space` | Open Rofi App Launcher |
 | `$mod + f` | Open Thunar File Manager |
 | `$mod + b` | Open Helium Browser |
-| `$mod + o` | Open OBS Studio |
-| `$mod + c` | Open VS Code |
-| `$mod + k` | Open Krita |
-| `$mod + p` | Open ProtonVPN |
-| `$mod + Shift + c` | Open Qalculate Calculator |
 | `$mod + Shift + s` | Take Screenshot (Select area to Clipboard) |
 | `$mod + v` | Open Greenclip Clipboard History (Rofi) |
 | `$mod + Shift + v` | Clear Greenclip Clipboard History |
+
+### Maintenance & Tools
+
+| Keybinding | Action |
+| :--- | :--- |
+| `$mod + Shift + k` | Open Qalculate Calculator |
+| `$mod + Shift + c` | Run System Maintenance & Cleanup Script |
+| `$mod + Shift + u` | Run Full System Update (Pacman + AUR) |
+
+### System & Power Management
+
+| Keybinding | Action |
+| :--- | :--- |
+| `$mod + Shift + i` | Reboot System |
+| `$mod + Shift + o` | Shutdown System |
+| `$mod + Shift + L` | Lock Session |
+| `$mod + Shift + H` | Hibernate System |
+| `$mod + Shift + p` | Toggle Power Profiles (S / B / P) |
+| `$mod + Shift + r` | Reload i3wm Configuration File |
+| `$mod + Shift + t` | Restart i3wm In-place |
+| `$mod + Shift + e` | Open Default i3wm Exit Log-out Bar |
 
 ### Window Management & Layouts
 
@@ -58,24 +74,10 @@ Here are the essential shortcuts for managing this desktop environment (`$mod` r
 | `$mod + z` | Toggle Floating / Tiling Mode |
 | `$mod + Shift + space` | Focus Toggle between Floating and Tiling |
 
-### System & Power Management
-
-| Keybinding | Action |
-| :--- | :--- |
-| `$mod + Shift + p` | Toggle Power Profiles (S / B / P) |
-| `$mod + Shift + r` | Reload i3wm Configuration File |
-| `$mod + Shift + t` | Restart i3wm In-place |
-| `$mod + Shift + e` | Open Default i3wm Exit Log-out Bar |
-| `$mod + Shift + L` | Lock Session |
-| `$mod + Shift + H` | Hibernate System |
-| `$mod + Shift + Y` | Reboot System |
-| `$mod + Shift + U` | Shutdown System |
-
 ### Workspaces (1 - 10)
 
 * **Switch Workspace:** `$mod + [1-0]`
 * **Move Window to Workspace:** `$mod + Shift + [1-0]`
-
 
 **Note:** Ignore the sections below if you are using `install.sh`!
 
