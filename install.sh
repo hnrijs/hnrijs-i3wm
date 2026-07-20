@@ -8,13 +8,13 @@ echo "Starting installation..."
 
 # 1. Create default user directories including Pictures
 echo "Creating user directories..."
-mkdir -p "$HOME/Documents" "$HOME/Music" "$HOME/Pictures" "$HOME/Videos" "$HOME/.config"
+mkdir -p "$HOME/Documents" "$HOME/Music" "$HOME/Downloads" "$HOME/Pictures" "$HOME/Videos" "$HOME/.config"
 
 # 2. Install official pacman packages
 sudo pacman -S --needed --noconfirm git wget base-devel feh thunar rofi imv cava btop \
     qalculate-gtk alacritty zip unzip polkit-gnome xclip maim power-profiles-daemon \
     ttf-jetbrains-mono-nerd noto-fonts-emoji gtk3 fastfetch pavucontrol nwg-look mpv \
-    brightnessctl xsettingsd picom materia-theme papirus-icon-theme
+    brightnessctl xsettingsd materia-theme papirus-icon-theme micro
 
 # 3. Check and install yay AUR helper
 if ! command -v yay &> /dev/null; then
