@@ -50,6 +50,7 @@ Here are the essential shortcuts for managing this desktop environment (`$mod` r
 | `$mod + Shift + K` | Open Qalculate Calculator |
 | `$mod + Shift + C` | Run System Maintenance & Cleanup Script |
 | `$mod + Shift + U` | Run Full System Update (Pacman + AUR) |
+| `$mod + Shift + m` | Open Network Manager (nmtui) in Terminal |
 
 ### System & Power Management
 
