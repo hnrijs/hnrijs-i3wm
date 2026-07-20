@@ -51,6 +51,7 @@ Here are the essential shortcuts for managing this desktop environment (`$mod` r
 | `$mod + Shift + C` | Run System Maintenance & Cleanup Script |
 | `$mod + Shift + U` | Run Full System Update (Pacman + AUR) |
 | `$mod + Shift + N` | Open Network Manager (nmtui) in Terminal |
+| `$mod + Shift + S` | Screenshot |
 
 ### System & Power Management
 
