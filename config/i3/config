@@ -22,6 +22,17 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
+# brightness
+
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
+
+# media control
+
+bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
+bindsym XF86AudioNext exec --no-startup-id playerctl next
+bindsym XF86AudioPrev exec --no-startup-id playerctl previous
+
 
 floating_modifier $mod
 tiling_drag modifier titlebar
@@ -46,7 +57,6 @@ bindsym $mod+Shift+O --no-startup-id ~/.config/i3/scripts/i3exit.sh shutdown, mo
 bindsym $mod+Return exec alacritty
 bindsym $mod+f exec thunar
 bindsym $mod+b exec helium-browser
-bindsym $mod+Shift+k exec qalculate-gtk
 
 
 # power plans update clean
