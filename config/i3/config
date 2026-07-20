@@ -46,10 +46,6 @@ bindsym $mod+Shift+O --no-startup-id ~/.config/i3/scripts/i3exit.sh shutdown, mo
 bindsym $mod+Return exec alacritty
 bindsym $mod+f exec thunar
 bindsym $mod+b exec helium-browser
-bindsym $mod+o exec obs-studio
-bindsym $mod+c exec code
-bindsym $mod+k exec krita
-bindsym $mod+p exec protonvpn-app
 bindsym $mod+Shift+k exec qalculate-gtk
 
 
