@@ -12,9 +12,9 @@ mkdir -p "$HOME/Documents" "$HOME/Music" "$HOME/Downloads" "$HOME/Pictures" "$HO
 
 # 2. Install official pacman packages
 sudo pacman -S --needed --noconfirm git wget base-devel feh thunar rofi imv cava btop \
-    qalculate-gtk alacritty zip unzip polkit-gnome xclip maim power-profiles-daemon \
+    playerctl alacritty zip unzip polkit-gnome xclip maim power-profiles-daemon \
     ttf-jetbrains-mono-nerd noto-fonts-emoji gtk3 fastfetch pavucontrol nwg-look mpv \
-    brightnessctl xsettingsd materia-theme papirus-icon-theme micro playerctl
+    brightnessctl xsettingsd materia-theme micro
 
 # 3. Check and install yay AUR helper
 if ! command -v yay &> /dev/null; then
