@@ -94,9 +94,6 @@ yay -S helium-browser-bin waypaper rofi-greenclip
 ```
 install picom for transparency
 
-install materia-gtk-theme for darker thunar
-
-install papirus-icon-theme for thunar icons
 
 
 
