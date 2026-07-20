@@ -63,5 +63,6 @@ fi
 echo "Enabling services..."
 systemctl --user enable --now greenclip.service
 sudo systemctl enable --now power-profiles-daemon
+sudo systemctl enable --now NetworkManager
 
 echo "Installation complete!"
