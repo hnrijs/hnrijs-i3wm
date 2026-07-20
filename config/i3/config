@@ -52,7 +52,7 @@ bindsym $mod+Shift+O --no-startup-id ~/.config/i3/scripts/i3exit.sh shutdown, mo
 
 # network manager 
 
-bindsym $mod+Shift+M exec alacritty --class "nmtui" -e nmtui
+bindsym $mod+Shift+N exec alacritty --class "nmtui" -e nmtui
 
 # apps
 
