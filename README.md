@@ -56,10 +56,8 @@ Here are the essential shortcuts for managing this desktop environment (`$mod` r
 
 | Keybinding | Action |
 | :--- | :--- |
-| `$mod + Shift + I` | Reboot System |
-| `$mod + Shift + O` | Shutdown System |
 | `$mod + Shift + L` | Lock Session |
-| `$mod + Shift + H` | Hibernate System |
+| `$mod + Escape` | Rofi Power Menu |
 | `$mod + Shift + P` | Toggle Power Profiles (S / B / P) |
 | `$mod + Shift + R` | Reload i3wm Configuration File |
 | `$mod + Shift + T` | Restart i3wm In-place |
