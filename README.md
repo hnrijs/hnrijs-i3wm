@@ -22,7 +22,7 @@ sudo reboot
 ```
 
 
-## IGNORE IF EXECUTING INSTALL.SH!
+**Note:** Ignore the sections below if you are using `install.sh`!
 
 
 
