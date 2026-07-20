@@ -33,46 +33,46 @@ Here are the essential shortcuts for managing this desktop environment (`$mod` r
 | Keybinding | Action |
 | :--- | :--- |
 | `$mod + Return` | Open Alacritty Terminal |
-| `$mod + space` | Open Rofi App Launcher |
-| `$mod + f` | Open Thunar File Manager |
-| `$mod + b` | Open Helium Browser |
-| `$mod + Shift + s` | Take Screenshot (Select area to Clipboard) |
-| `$mod + v` | Open Greenclip Clipboard History (Rofi) |
-| `$mod + Shift + v` | Clear Greenclip Clipboard History |
+| `$mod + Space` | Open Rofi App Launcher |
+| `$mod + F` | Open Thunar File Manager |
+| `$mod + B` | Open Helium Browser |
+| `$mod + Shift + S` | Take Screenshot (Select area to Clipboard) |
+| `$mod + V` | Open Greenclip Clipboard History (Rofi) |
+| `$mod + Shift + V` | Clear Greenclip Clipboard History |
 
 ### Maintenance & Tools
 
 | Keybinding | Action |
 | :--- | :--- |
-| `$mod + Shift + k` | Open Qalculate Calculator |
-| `$mod + Shift + c` | Run System Maintenance & Cleanup Script |
-| `$mod + Shift + u` | Run Full System Update (Pacman + AUR) |
+| `$mod + Shift + K` | Open Qalculate Calculator |
+| `$mod + Shift + C` | Run System Maintenance & Cleanup Script |
+| `$mod + Shift + U` | Run Full System Update (Pacman + AUR) |
 
 ### System & Power Management
 
 | Keybinding | Action |
 | :--- | :--- |
-| `$mod + Shift + i` | Reboot System |
-| `$mod + Shift + o` | Shutdown System |
+| `$mod + Shift + I` | Reboot System |
+| `$mod + Shift + O` | Shutdown System |
 | `$mod + Shift + L` | Lock Session |
 | `$mod + Shift + H` | Hibernate System |
-| `$mod + Shift + p` | Toggle Power Profiles (S / B / P) |
-| `$mod + Shift + r` | Reload i3wm Configuration File |
-| `$mod + Shift + t` | Restart i3wm In-place |
-| `$mod + Shift + e` | Open Default i3wm Exit Log-out Bar |
+| `$mod + Shift + P` | Toggle Power Profiles (S / B / P) |
+| `$mod + Shift + R` | Reload i3wm Configuration File |
+| `$mod + Shift + T` | Restart i3wm In-place |
+| `$mod + Shift + E` | Open Default i3wm Exit Log-out Bar |
 
 ### Window Management & Layouts
 
 | Keybinding | Action |
 | :--- | :--- |
-| `$mod + q` | Kill Focused Window |
+| `$mod + Q` | Kill Focused Window |
 | `$mod + Left / Down / Up / Right` | Change Window Focus |
 | `$mod + Shift + Left / Down / Up / Right` | Move Focused Window |
-| `$mod + s` | Change Layout to Stacking |
-| `$mod + w` | Change Layout to Tabbed |
-| `$mod + e` | Toggle Split Layout |
-| `$mod + z` | Toggle Floating / Tiling Mode |
-| `$mod + Shift + space` | Focus Toggle between Floating and Tiling |
+| `$mod + S` | Change Layout to Stacking |
+| `$mod + W` | Change Layout to Tabbed |
+| `$mod + E` | Toggle Split Layout |
+| `$mod + Z` | Toggle Floating / Tiling Mode |
+| `$mod + Shift + Space` | Focus Toggle between Floating and Tiling |
 
 ### Workspaces (1 - 10)
 
@@ -95,19 +95,7 @@ install materia-gtk-theme for darker thunar
 
 install papirus-icon-theme for thunar icons
 
-## Need to Execute
 
-```bash
-systemctl --user enable --now greenclip.service
 
-sudo systemctl enable --now power-profiles-daemon
-```
-Do not forget to chmod
-```bash
-
-chmod +x /home/h/.config/i3/scripts/i3exit.sh
-
-chmod +x /home/h/.config/i3/scripts/power_profile.sh
-```
 
 
