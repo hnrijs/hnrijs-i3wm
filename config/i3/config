@@ -38,17 +38,10 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 
-# lock, hibernate, reboot, shutdown (add wp path in the sh file)
+# lock
 
 
 bindsym $mod+Shift+L exec --no-startup-id ~/.config/i3/scripts/i3exit.sh lock, mode "default"
-
-bindsym $mod+Shift+H exec --no-startup-id ~/.config/i3/scripts/i3exit.sh hibernate, mode "default"
-
-bindsym $mod+Shift+I --no-startup-id ~/.config/i3/scripts/i3exit.sh reboot, mode "default"
-
-bindsym $mod+Shift+O --no-startup-id ~/.config/i3/scripts/i3exit.sh shutdown, mode "default"
-
 
 # network manager 
 
@@ -74,6 +67,7 @@ bindsym $mod+space exec --no-startup-id rofi -show run
 bindsym $mod+Shift+s exec --no-startup-id maim -s | xclip -selection clipboard -t image/png
 bindsym $mod+v exec --no-startup-id sh -c 'rofi -modi "clipboard:greenclip print" -show clipboard -run-command "{cmd}"'
 bindsym Mod4+Shift+v exec --no-startup-id greenclip clear
+bindsym $mod+Escape exec --no-startup-id ~/.config/i3/scripts/rofi-powermenu.sh
 
 # move and focus window
 bindsym $mod+Left focus left
