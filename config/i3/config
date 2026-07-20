@@ -9,7 +9,7 @@ font pango:JetBrains Mono 10
 # services + wallpaper
 
 exec --no-startup-id dex --autostart --environment i3
-exec --no-startup-id feh --bg-scale /home/maloot/Pictures/main.png
+exec --no-startup-id feh --bg-scale /home/h/Pictures/main.png
 exec --no-startup-id nm-applet
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id ~/.fehbg
