@@ -5,11 +5,13 @@
 
 ## Required Packages
 
-sudo pacman -S feh thunar rofi imv cava btop qalculate-gtk alacritty zip unzip polkit-gnome xclip maim power-profiles-daemon ttf-jetbrains-mono-nerd noto-fonts-emoji gtk3 fastfetch pavucontrol nwg-look mpv
+sudo pacman -S git wget base-devel feh thunar rofi imv cava btop qalculate-gtk alacritty zip unzip polkit-gnome xclip maim power-profiles-daemon ttf-jetbrains-mono-nerd noto-fonts-emoji gtk3 fastfetch pavucontrol nwg-look mpv brightnessctl
 
-yay -S materia-gtk-theme helium-browser-bin waypaper rofi-greenclip
+yay -S helium-browser-bin waypaper rofi-greenclip
 
 install picom for transparency
+
+install materia-gtk-theme for darker thunar
 
 install papirus-icon-theme for thunar icons
 
@@ -19,6 +21,11 @@ systemctl --user enable --now greenclip.service
 
 sudo systemctl enable --now power-profiles-daemon
 
-Do not forget to chmod +x /home/h/.config/polybar/launch.sh and other .sh files.
+Do not forget to chmod
+
+chmod +x /home/h/.config/i3/scripts/i3exit.sh
+
+chmod +x /home/h/.config/i3/scripts/power_profile.sh
+
 
 
