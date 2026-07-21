@@ -4,7 +4,7 @@ set $mod Mod4
 
 # font
 
-font pango:JetBrains Mono 10
+font pango:JetBrainsMono Nerd Font Bold 10
 
 # services + wallpaper
 
