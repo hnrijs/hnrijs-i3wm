@@ -38,6 +38,7 @@ Here are the essential shortcuts for managing this desktop environment (`$mod` r
 | `$mod + Return` | Open Alacritty Terminal |
 | `$mod + Space` | Open Rofi App Launcher |
 | `$mod + F` | Open Thunar File Manager |
+| `$mod + Shift + A` | Open Pavu Control |
 | `$mod + B` | Open Helium Browser |
 | `$mod + Shift + S` | Take Screenshot (Select area to Clipboard) |
 | `$mod + V` | Open Greenclip Clipboard History (Rofi) |
