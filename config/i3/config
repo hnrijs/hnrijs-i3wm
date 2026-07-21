@@ -52,7 +52,7 @@ bindsym $mod+Shift+N exec alacritty --class "nmtui" -e nmtui
 bindsym $mod+Return exec alacritty
 bindsym $mod+f exec thunar
 bindsym $mod+b exec helium-browser
-
+bindsym $mod+Shift+a exec --no-startup-id pavucontrol
 
 # power plans update clean
 
